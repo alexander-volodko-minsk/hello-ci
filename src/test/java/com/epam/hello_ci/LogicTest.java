@@ -15,7 +15,7 @@ public class LogicTest
     }
 
     @Test
-    public void returnnNotNullLineTest()
+    public void returnNotNullLineTest()
     {
         String testLine = "line";
         Assert.assertEquals(testLine, logic.returnLine(testLine));
