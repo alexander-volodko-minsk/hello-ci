@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.epam.hello_ci.LogicTest" duration-ms="18" started-at="2017-05-19T12:07:27Z" finished-at="2017-05-19T12:07:27Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="18" started-at="2017-05-19T12:07:27Z" finished-at="2017-05-19T12:07:27Z">
+      <class name="com.epam.hello_ci.LogicTest">
+        <test-method status="PASS" signature="injectDoubles()[pri:0, instance:com.epam.hello_ci.LogicTest@2f7c7260]" name="injectDoubles" is-config="true" duration-ms="5" started-at="2017-05-19T15:07:27Z" finished-at="2017-05-19T15:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- injectDoubles -->
+        <test-method status="PASS" signature="returnNotNullLineTest()[pri:0, instance:com.epam.hello_ci.LogicTest@2f7c7260]" name="returnNotNullLineTest" duration-ms="2" started-at="2017-05-19T15:07:27Z" finished-at="2017-05-19T15:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnNotNullLineTest -->
+        <test-method status="PASS" signature="returnNullLineTest()[pri:0, instance:com.epam.hello_ci.LogicTest@2f7c7260]" name="returnNullLineTest" duration-ms="0" started-at="2017-05-19T15:07:27Z" finished-at="2017-05-19T15:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnNullLineTest -->
+        <test-method status="PASS" signature="injectDoubles()[pri:0, instance:com.epam.hello_ci.LogicTest@2f7c7260]" name="injectDoubles" is-config="true" duration-ms="0" started-at="2017-05-19T15:07:27Z" finished-at="2017-05-19T15:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- injectDoubles -->
+      </class> <!-- com.epam.hello_ci.LogicTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.epam.hello_ci.LogicTest -->
+</testng-results>
