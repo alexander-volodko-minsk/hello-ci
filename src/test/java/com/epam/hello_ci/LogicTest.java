@@ -19,7 +19,7 @@ public class LogicTest
     {
         System.out.println("first1Test");
         String testLine = "line";
-        Assert.assertNotEquals(testLine, logic.returnLine(testLine));
+        Assert.assertEquals(testLine, logic.returnLine(testLine));
     }
 
     @Test
