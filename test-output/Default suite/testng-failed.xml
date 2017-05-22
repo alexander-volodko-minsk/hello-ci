@@ -5,7 +5,7 @@
     <classes>
       <class name="com.epam.hello_ci.LogicTest">
         <methods>
-          <include name="returnNullLineTest"/>
+          <include name="returnNotNullGreetingTest"/>
           <include name="injectDoubles"/>
         </methods>
       </class> <!-- com.epam.hello_ci.LogicTest -->
