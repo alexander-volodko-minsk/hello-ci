@@ -17,7 +17,7 @@ public class LogicTest
     @Test
     public void returnNotNullLineTest()
     {
-        System.out.println("first1Test");
+        System.out.println("lineTest1");
         String testLine = "line";
         Assert.assertEquals(testLine, logic.returnLine(testLine));
     }
@@ -25,8 +25,22 @@ public class LogicTest
     @Test
     public void returnNullLineTest()
     {
-        System.out.println("second2Test");
-        String errorMessage = "can not return line";
-        Assert.assertEquals(errorMessage, logic.returnLine(null));
+        System.out.println("lineTest2");
+        Assert.assertEquals(logic.errorMessage, logic.returnLine(null));
+    }
+    
+    @Test
+    public void returnNotNullGreetingTest()
+    {
+        System.out.println("greetingTest1");
+        String testLine = String.format(logic.greetingMessagePattern, "line");
+        Assert.assertEquals(testLine, logic.returnGreeting("line"));
+    }
+
+    @Test
+    public void returnNullGreetingTest()
+    {
+        System.out.println("greetingTest2");
+        Assert.assertEquals(logic.errorMessage, logic.returnLine(null));
     }
 }
